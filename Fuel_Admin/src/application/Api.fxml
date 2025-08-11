@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="application.ApiController"
+            prefWidth="500" prefHeight="300"
+            stylesheets="@style.css">
+
+    <VBox alignment="CENTER" spacing="20" layoutX="50" layoutY="50">
+        <Label text="Payment Successful!" styleClass="header-label"/>
+        <Label text="Your payment has been processed using the selected API."/>
+        <Label text="Thank you for using the Fuel Admin App." />
+
+        <Button text="Log Out" onAction="#handleLogout" styleClass="nav-button"/>
+    </VBox>
+</AnchorPane>

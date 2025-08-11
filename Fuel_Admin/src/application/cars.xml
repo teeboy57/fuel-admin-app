@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+  <brand name="Toyota">
+    <model>Hilux</model>
+    <model>Fortuner</model>
+    <model>Corolla</model>
+    <model>Corolla Cross</model>
+    <model>Yaris</model>
+    <model>Land Cruiser</model>
+    <model>Condor</model>
+  </brand>
+  <brand name="Volkswagen">
+    <model>Polo</model>
+    <model>Polo Vivo</model>
+    <model>Golf</model>
+    <model>T-Cross</model>
+    <model>Tiguan</model>
+    <model>Passat</model>
+    <model>Amarok</model>
+  </brand>
+  <brand name="Ford">
+    <model>Ranger</model>
+    <model>EcoSport</model>
+    <model>Focus</model>
+    <model>Fiesta</model>
+    <model>Endura</model>
+    <model>Everest</model>
+  </brand>
+  <brand name="Nissan">
+    <model>Navara</model>
+    <model>Magnite</model>
+    <model>X-Trail</model>
+    <model>Qashqai</model>
+    <model>Juke</model>
+    <model>Patrol</model>
+  </brand>
+  <brand name="Isuzu">
+    <model>D-Max</model>
+    <model>MU-X</model>
+    <model>KB</model>
+  </brand>
+  <brand name="BMW">
+    <model>3 Series</model>
+    <model>5 Series</model>
+    <model>X3</model>
+    <model>X5</model>
+    <model>7 Series</model>
+  </brand>
+  <brand name="Mercedes-Benz">
+    <model>A-Class</model>
+    <model>C-Class</model>
+    <model>E-Class</model>
+    <model>S-Class</model>
+    <model>GLA</model>
+    <model>GLC</model>
+    <model>GLS</model>
+  </brand>
+  <brand name="Audi">
+    <model>A3</model>
+    <model>A4</model>
+    <model>A6</model>
+    <model>Q3</model>
+    <model>Q5</model>
+    <model>Q7</model>
+    <model>Q8</model>
+  </brand>
+  <brand name="Hyundai">
+    <model>i10</model>
+    <model>i20</model>
+    <model>i30</model>
+    <model>Tucson</model>
+    <model>Santa Fe</model>
+    <model>Creta</model>
+  </brand>
+  <brand name="Kia">
+    <model>Picanto</model>
+    <model>Rio</model>
+    <model>Seltos</model>
+    <model>Sportage</model>
+    <model>Carnival</model>
+  </brand>
+  <brand name="Renault">
+    <model>Kwid</model>
+    <model>Sandero</model>
+    <model>Kiger</model>
+    <model>Duster</model>
+    <model>Triber</model>
+  </brand>
+  <brand name="Chery">
+    <model>Tiggo 2 Pro</model>
+    <model>Tiggo 4 Pro</model>
+    <model>Omoda C5</model>
+    <model>Omoda C9</model>
+    <model>Jaecoo J7</model>
+  </brand>
+  <brand name="BYD">
+    <model>ATTO 3</model>
+    <model>Shark</model>
+    <model>SEALION 6</model>
+    <model>SEALION 7</model>
+  </brand>
+  <brand name="Great Wall Motors">
+    <model>Haval Jolion</model>
+    <model>Haval H6</model>
+    <model>GWM P-Series</model>
+    <model>GWM Steed</model>
+  </brand>
+  <brand name="Fiat">
+    <model>Punto</model>
+    <model>500</model>
+    <model>Panda</model>
+  </brand>
+  <brand name="Honda">
+    <model>Jazz</model>
+    <model>Civic</model>
+    <model>HR-V</model>
+    <model>CR-V</model>
+  </brand>
+  <brand name="Mazda">
+    <model>CX-3</model>
+    <model>CX-5</model>
+    <model>Mazda2</model>
+    <model>Mazda3</model>
+  </brand>
+  <brand name="Peugeot">
+    <model>208</model>
+    <model>3008</model>
+    <model>5008</model>
+  </brand>
+  <brand name="Changan">
+    <model>Hunter</model>
+    <model>Alsvin</model>
+    <model>CS75 Pro</model>
+    <model>Deepal S07</model>
+  </brand>
+</cars>

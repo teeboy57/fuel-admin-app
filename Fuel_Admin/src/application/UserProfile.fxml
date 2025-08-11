@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="application.UserProfileController"
+           prefWidth="500" prefHeight="300"
+           stylesheets="@style.css">
+
+    <VBox alignment="CENTER" spacing="10" prefWidth="400">
+
+        <Label text="User Profile" styleClass="header-label"/>
+
+        <Label fx:id="nameLabel" text="Name: "/>
+        <Label fx:id="idLabel" text="ID Number: "/>
+        <Label fx:id="addressLabel" text="Address: "/>
+        <Label fx:id="carRegLabel" text="Car Reg: "/>
+
+        <Button text="Back to Login" onAction="#handleBack" styleClass="nav-button"/>
+
+    </VBox>
+
+</StackPane>

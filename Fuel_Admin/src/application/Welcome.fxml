@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="application.WelcomeController"
+           prefWidth="600" prefHeight="400"
+           stylesheets="@style.css"
+           styleClass="welcome-background">
+
+    <VBox alignment="CENTER" spacing="25"
+          styleClass="welcome-card"
+          maxWidth="400">
+
+        <Label text="Welcome to Fuel Admin App" styleClass="header-label"/>
+
+        <Button text="Continue"
+                onAction="#handleContinue"
+                styleClass="nav-button"/>
+    </VBox>
+
+</StackPane>

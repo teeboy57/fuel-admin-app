@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="application.RegisterController"
+           prefWidth="450" prefHeight="400"
+           stylesheets="@style.css">
+
+    <VBox spacing="15" alignment="CENTER" prefWidth="350">
+
+        <Label text="Register" styleClass="header-label"/>
+
+        <HBox spacing="10" alignment="CENTER_LEFT" prefWidth="350">
+            <Label text="Name:" minWidth="140" />
+            <TextField fx:id="nameField" promptText="Name and Surname" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT" prefWidth="350">
+            <Label text="ID Number:" minWidth="140" />
+            <TextField fx:id="idField" promptText="ID Number" prefWidth="200" />
+        </HBox>
+
+        <!-- New Password Field -->
+        <HBox spacing="10" alignment="CENTER_LEFT" prefWidth="350">
+            <Label text="Password:" minWidth="140" />
+            <PasswordField fx:id="passwordField" promptText="Create Password" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT" prefWidth="350">
+            <Label text="Address:" minWidth="140" />
+            <TextField fx:id="addressField" promptText="Home Address" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT" prefWidth="350">
+            <Label text="Car Reg. No:" minWidth="140" />
+            <TextField fx:id="carRegField" promptText="Car Registration Number" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Back" onAction="#handleBack" styleClass="nav-button" />
+            <Button text="Next" onAction="#handleNext" styleClass="nav-button" />
+        </HBox>
+    </VBox>
+
+</StackPane>

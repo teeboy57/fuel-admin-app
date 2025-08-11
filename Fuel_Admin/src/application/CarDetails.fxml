@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="application.CarDetailsController"
+            prefWidth="450" prefHeight="450"
+            stylesheets="@style.css">
+
+    <VBox spacing="10" alignment="CENTER" layoutX="50" layoutY="30">
+
+        <Label text="Request for Fuel" styleClass="header-label"/>
+
+        <!-- Car Brand Dropdown -->
+        <ComboBox fx:id="brandComboBox" promptText="Select Car Brand"/>
+
+        <!-- Car Model Dropdown -->
+        <ComboBox fx:id="modelComboBox" promptText="Select Car Model"/>
+
+        <Label fx:id="fuelCapacityLabel" text="Fuel Capacity: " />
+        <Label fx:id="fullTankPriceLabel" text="Full Tank Price: " />
+
+        <HBox spacing="10">
+            <Button text="Back" onAction="#handleBack" styleClass="nav-button"/>
+            <Button text="Decline" onAction="#handleDecline" styleClass="nav-button"/>
+            <Button text="Accept" onAction="#handleAccept" styleClass="nav-button"/>
+        </HBox>
+    </VBox>
+</AnchorPane>

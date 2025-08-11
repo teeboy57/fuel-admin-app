@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="400" prefWidth="373.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+
+    <VBox alignment="CENTER" prefHeight="373.0" prefWidth="408.0" spacing="15">
+
+        <Label styleClass="header-label" text="Login" />
+
+        <!-- Username row -->
+        <HBox alignment="CENTER_LEFT" prefWidth="284" spacing="10">
+            <Label minWidth="79.0" prefHeight="15.0" prefWidth="79.0" text="Username:" />
+            <TextField fx:id="usernameField" alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="204" promptText="Enter username">
+                <font>
+                    <Font size="13.0" />
+                </font>
+            </TextField>
+        </HBox>
+
+        <!-- Password row -->
+        <HBox alignment="CENTER_LEFT" prefWidth="284" spacing="10">
+            <Label minWidth="80" text="Password:" />
+            <PasswordField fx:id="passwordField" alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="204" promptText="Enter password">
+                <font>
+                    <Font size="13.0" />
+                </font>
+            </PasswordField>
+        </HBox>
+
+        <CheckBox fx:id="rememberMeCheckBox" text="Remember Me" />
+
+        <HBox alignment="CENTER" spacing="10">
+            <Button onAction="#handleLogin" styleClass="nav-button" text="Login" />
+            <Button onAction="#handleRegister" styleClass="nav-button" text="Register" />
+        </HBox>
+
+        <Button onAction="#handleForgotPassword" styleClass="nav-button" text="Forgot Password?" />
+
+    </VBox>
+
+</StackPane>

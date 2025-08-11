@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.time.LocalDate?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="application.PaymentSummaryController"
+           prefWidth="500" prefHeight="420"
+           stylesheets="@style.css">
+
+    <VBox spacing="15" alignment="CENTER" prefWidth="400">
+
+        <Label text="Payment Summary" styleClass="header-label"/>
+
+        <Label fx:id="quotationLabel" text="Total: R 0.00" />
+        <Label fx:id="discountLabel" text="Discount: 0%" />
+
+        <Label text="Repayment Date (within 30 days):"/>
+        <DatePicker fx:id="repaymentDatePicker" prefWidth="200"/>
+
+        <Label text="Choose Payment Option:"/>
+        <ComboBox fx:id="paymentOptionBox" promptText="Select Payment Method" prefWidth="200"/>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Back" onAction="#handleBack" styleClass="nav-button"/>
+            <Button text="Pay Now" onAction="#handlePayNow" styleClass="nav-button"/>
+        </HBox>
+
+    </VBox>
+
+</StackPane>
